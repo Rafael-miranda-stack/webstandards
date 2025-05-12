@@ -1,0 +1,295 @@
+.titulo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 100px 20px;
+    background-image: url(/public/assets/images/fundo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+   
+}
+.titulo h1 {
+    color: #f6f6f6;
+}
+.titulo h2 {
+    color: #f6f6f6;
+}
+
+.titulo p {
+      color: #f6f6f6;
+      font-size: 16px;
+}
+
+.titulo .info .agendarConsulta a button {
+    background-color: rgb(238, 74, 10);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+      font-size: 18px;
+      padding: 10px 10px 10px 10px;  
+      width: 250px;
+      height: 50px;
+      border: none;
+      color: #f6f6f6
+      
+}
+
+
+.titulo .info {
+    display: flex;
+     flex-direction: column;
+     justify-content: flex-start;
+     align-items: flex-start;
+     width: 500px;
+     gap: 20px;
+   
+}
+
+.titulo .info .agendarConsulta {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    
+}
+.titulo .info .agendarConsulta a {
+ color: black;
+ text-decoration: none;
+
+}
+
+.titulo .img-info {
+    width: 450px;
+    border-radius: 10px;
+
+}
+
+.title {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 100px 20px;
+    background-color: #f6f6f6
+   
+}
+.title h1 {
+    color: rgb(255, 115, 0);
+}
+
+.title p {
+      color: black;
+      font-size: 16px;
+}
+
+.title .descrição {
+    display: flex;
+     flex-direction: column;
+     justify-content: flex-start;
+     align-items: flex-start;
+     width: 500px;
+     gap: 20px;
+   
+}
+
+.info .info .agendarConsulta {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+
+.title .img-areas {
+    width: 450px;
+    border-radius: 10px;
+
+}
+
+.titulo2 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 100px 20px;
+    background-image: url(/public/assets/images/fundo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+}
+
+.titulo2 h2 {
+    color: #f6f6f6;
+}
+
+.titulo2 p {
+      color: black;
+      font-size: 16px;
+}
+
+.titulo2 .info2 .agendarConsulta2 a button {
+    background-color: rgb(238, 74, 10);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+      font-size: 18px;
+      padding: 10px 10px 10px 10px;  
+      width: 250px;
+      height: 50px;
+      border: none;
+      color: #f6f6f6
+      
+      
+}
+.titulo2 .info2 {
+    display: flex;
+     flex-direction: column;
+     justify-content: flex-start;
+     align-items: flex-start;
+     width: 500px;
+     gap: 20px;
+   
+
+}
+
+.info2 .info2 .agendarConsulta2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    
+}
+.titulo2 .info2 .agendarConsulta2 a {
+ color: black;
+ text-decoration: none;
+
+}
+
+.titulo2 .img-mente {
+    width: 450;
+    border-radius: 20px;
+
+}
+
+.titulo3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 100px 20px;
+
+    background-color: #f6f6f6;
+}
+.titulo3 h1 {
+    color: rgb(255, 115, 0);
+}
+.titulo3 .info3 {
+    display: flex;
+     flex-direction: column;
+     justify-content: flex-start;
+     align-items: flex-start;
+     width: 500px;
+     gap: 20px;
+   
+
+}
+
+.info3 .info3 .agendarConsulta3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    
+}
+.titulo3 .info3 .agendarConsulta3 a {
+ color: black;
+ text-decoration: none;
+
+}
+
+.titulo3 .img-comportamentos {
+    width: 450;
+    border-radius: 20px;
+
+}
+
+ body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f1eb;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            background-color: #f26d4b;
+            border-radius: 10px;
+            color: #fff;
+            width: 80%;
+            margin: auto;
+        }
+        .contact, .faq {
+            width: 45%;
+        }
+        h2 {
+            margin-bottom: 10px;
+        }
+        a {
+            color: #fff;
+            text-decoration: none;
+            text-decoration: underline;
+
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            margin-bottom: 5px;
+        }
+@media (max-width: 768px) {
+    .titulo, .title, .titulo2, .titulo3, .container {
+        flex-direction: column;
+        text-align: center;
+        padding: 50px 20px;
+    }
+
+    .info, .descrição, .info2, .info3, .contact, .faq {
+        width: 100%;
+    }
+
+    .img-info, .img-areas, .img-mente, .img-comportamentos {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .agendarConsulta, .agendarConsulta2, .agendarConsulta3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 30px 10px;
+    }
+
+    button {
+        width: 100%;
+    }
+}
